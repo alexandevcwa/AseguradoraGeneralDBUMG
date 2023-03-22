@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8456E282-E4AA-FAA2-6168-E2DAAE9E626E" name="Municipios">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:15:27 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMuni" id="949D7AD4-971F-E1AC-6BDD-1FD00E44A833">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:16:33 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipio" id="B0B6ACE0-9474-B398-620D-A5BDD504E024">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:16:33 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>48 BYTE</dataTypeSize>
+<ownDataTypeParameters>48 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdDepto" id="46082135-382E-5461-5D55-C365C081E625">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:17:09 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6952C060-2C37-CCD4-F643-E3573C3D1AE0" referredColumn="42323193-AA52-7BB7-D29E-438EFD91D841"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10D7E6C2-CDC9-8EF8-AEFC-692F5D8A214C" name="Municipios_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:16:33 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="949D7AD4-971F-E1AC-6BDD-1FD00E44A833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="395A0024-3FC2-B744-3EFD-235E0767E50E" name="Municipios_Departamentos_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:17:40 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46082135-382E-5461-5D55-C365C081E625"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

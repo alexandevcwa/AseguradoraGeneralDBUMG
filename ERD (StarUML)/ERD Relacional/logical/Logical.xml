@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2F731FDE-8F34-2685-D1EC-BC49746F65EA" mainViewID="F0E03458-5FF4-27D5-C021-C7FAC01745E6">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:53:30 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

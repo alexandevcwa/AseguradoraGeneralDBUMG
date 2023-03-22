@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE37D882-9EBF-3B8B-FD55-04CB2AB13B77" name="Marcas">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:58:52 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMarca" id="80F1B255-1D67-A363-0F3D-3207CA25B01D">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:59:46 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="47843B19-22C1-4922-6239-CC610703C391">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:59:46 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>48 BYTE</dataTypeSize>
+<ownDataTypeParameters>48 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A1949F0-35A6-F52A-CD9A-72DBC20D7E62" name="Marcas_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:59:46 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F1B255-1D67-A363-0F3D-3207CA25B01D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECD4B341-2341-1BFA-F17C-6D23488DE9E1" name="Marcas__UN">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:59:55 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47843B19-22C1-4922-6239-CC610703C391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="327199C5-6D53-2E48-2547-D13ACCC89742">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:53:30 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

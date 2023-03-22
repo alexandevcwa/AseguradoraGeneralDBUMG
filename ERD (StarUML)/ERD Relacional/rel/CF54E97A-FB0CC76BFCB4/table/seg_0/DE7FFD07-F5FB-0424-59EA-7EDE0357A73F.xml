@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE7FFD07-F5FB-0424-59EA-7EDE0357A73F" name="Departamentos">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:02:03 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDepto" id="42323193-AA52-7BB7-D29E-438EFD91D841">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:03:04 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Depto" id="C86DD030-CD9D-C234-0041-001EB541C361">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:03:04 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>48 BYTE</dataTypeSize>
+<ownDataTypeParameters>48 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="148F93D3-12E1-51B9-F160-34A83BDC9096" name="Departamentos_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:03:04 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42323193-AA52-7BB7-D29E-438EFD91D841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AB707A5-F8E5-E203-580F-931DF8A02140" name="Departamentos__UN">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:03:04 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86DD030-CD9D-C234-0041-001EB541C361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

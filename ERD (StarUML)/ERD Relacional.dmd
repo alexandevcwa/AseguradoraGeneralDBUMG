@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD Relacional" id="343A4858-DE20-9B7A-102A-E876277B70F4" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 04:53:30 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>343A4858-DE20-9B7A-102A-E876277B70F4</designId>
+</OSDM_Design>

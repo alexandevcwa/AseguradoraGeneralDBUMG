@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7BCF6A0-750E-D502-1855-B1D1382CD209" containerWithKeyObject="D52661BD-6FCC-826E-E3B3-15DBDB3BED80" localFKIndex="128420D1-8A62-E6A5-33AD-FBEBCEF15D24" name="Vehiculos_Marcas_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:12:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<referredTableLongName>Marcas</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>CE37D882-9EBF-3B8B-FD55-04CB2AB13B77</referredTableID>
+<keyObject>5A1949F0-35A6-F52A-CD9A-72DBC20D7E62</keyObject>
+<referredKeyID>5A1949F0-35A6-F52A-CD9A-72DBC20D7E62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMarca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

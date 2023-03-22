@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95A8B84A-F0F9-17D9-6373-C6730924E0A7" containerWithKeyObject="6AAD5B40-9D2F-6584-5507-95C90086F31E" localFKIndex="4DC25602-EBA4-0A51-7250-A124D1B25DB9" name="Clientes_Municipios_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<referredTableLongName>Municipios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8456E282-E4AA-FAA2-6168-E2DAAE9E626E</referredTableID>
+<keyObject>10D7E6C2-CDC9-8EF8-AEFC-692F5D8A214C</keyObject>
+<referredKeyID>10D7E6C2-CDC9-8EF8-AEFC-692F5D8A214C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMuni</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
