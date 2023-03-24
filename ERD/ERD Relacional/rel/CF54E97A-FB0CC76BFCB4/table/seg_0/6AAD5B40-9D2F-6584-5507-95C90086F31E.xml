@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AAD5B40-9D2F-6584-5507-95C90086F31E" name="Clientes">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:17:52 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUI" id="E92E5451-EE5E-B09D-7E6C-191D5D5822CE">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:21:27 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="236BF527-CC24-0F1E-865E-04D79083AC64">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:21:27 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B4A2AD8B-D0B2-3516-59E5-55B64BAB82F1">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:21:27 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="616EE8BD-D663-4743-464D-4AD8AA3BF8B2">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdDepto" id="A531C61B-0B26-337B-55BA-B25D152BF635">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254F375C-1469-CA2C-5794-300B30B33C33" referredColumn="42323193-AA52-7BB7-D29E-438EFD91D841"/>
+</associations>
+</Column>
+<Column name="IdMuni" id="43FDFE52-5262-022D-1F9F-54C7FAF3C2EB">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95A8B84A-F0F9-17D9-6373-C6730924E0A7" referredColumn="949D7AD4-971F-E1AC-6BDD-1FD00E44A833"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="266C38F4-6429-952D-6664-FAE65F0BDC65" name="Clientes_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:21:27 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="236BF527-CC24-0F1E-865E-04D79083AC64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8F6EF8F-D529-69AD-3A40-2C615674CB1A" name="Clientes__UN">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92E5451-EE5E-B09D-7E6C-191D5D5822CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8146DE0-5640-C2BD-6E24-ADC095A08830" name="Clientes_Departamentos_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A531C61B-0B26-337B-55BA-B25D152BF635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DC25602-EBA4-0A51-7250-A124D1B25DB9" name="Clientes_Municipios_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:25:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FDFE52-5262-022D-1F9F-54C7FAF3C2EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

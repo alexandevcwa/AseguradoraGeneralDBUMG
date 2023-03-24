@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D52661BD-6FCC-826E-E3B3-15DBDB3BED80" name="Vehiculos">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:03:43 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula" id="755D42DD-6520-EB13-E1F1-03BB92B373BA">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdTMatricula" id="B30B115A-9248-8702-5983-5A1E2CA4D7D9">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D691CF-74D6-061F-A305-725DDA5B8BC9" referredColumn="9DEDE8EE-27EF-9646-1BF3-C9ADD961A659"/>
+</associations>
+</Column>
+<Column name="FechaMatricula" id="F5D61A36-4352-32CF-EB96-4CA0E1546BC9">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="C2708297-14E5-3095-0D38-5B91F15FE07B">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cilindros" id="4FCA52B5-B8C8-4659-3203-E0686DD09AAF">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="7FC89866-458A-4644-C1A1-08E353461721">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>48 BYTE</dataTypeSize>
+<ownDataTypeParameters>48 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdMarca" id="BB6738C3-14F8-F943-8348-F6012EFD73A0">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7BCF6A0-750E-D502-1855-B1D1382CD209" referredColumn="80F1B255-1D67-A363-0F3D-3207CA25B01D"/>
+</associations>
+</Column>
+<Column name="Precio" id="118A94B2-C57A-2635-AAFD-4EC7EBFEF17E">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,8,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D6A421A-F6C8-954E-D4D0-3B511160F463" name="Vehiculos_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:11:58 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755D42DD-6520-EB13-E1F1-03BB92B373BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="128420D1-8A62-E6A5-33AD-FBEBCEF15D24" name="Vehiculos_Marcas_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:12:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB6738C3-14F8-F943-8348-F6012EFD73A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90F6027E-C44B-3806-5BB0-E0631245B544" name="Vehiculos_TiposMatriculas_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:12:55 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B30B115A-9248-8702-5983-5A1E2CA4D7D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

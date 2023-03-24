@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F957C42B-E4AC-C003-66E9-D1E0A4A24BEC" name="ClientesVehiculos">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:28:31 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="E5AD4A7B-DC69-D3B9-CB89-31E2A9C352B2">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:29:42 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6726B9C-A60A-6228-6F98-393AA89D5136" referredColumn="236BF527-CC24-0F1E-865E-04D79083AC64"/>
+</associations>
+</Column>
+<Column name="Matricula" id="AF6DF01D-3BDB-1C8C-AD35-74D4D194EBF0">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:29:42 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ECAA7CB-A3EB-2CCF-CA5D-78CA4C865826" referredColumn="755D42DD-6520-EB13-E1F1-03BB92B373BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="010B48F5-81EB-22E5-D5FD-13BE63A6858A" name="ClientesVehiculos_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-22 05:29:42 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6DF01D-3BDB-1C8C-AD35-74D4D194EBF0"/>
+<colUsage columnID="E5AD4A7B-DC69-D3B9-CB89-31E2A9C352B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77111054-E698-51FC-F193-A02B92A15F9F" name="ClientesVehiculos_Clientes_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:51:57 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5AD4A7B-DC69-D3B9-CB89-31E2A9C352B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="541F468F-1B62-2567-0328-E73D3126E948" name="ClientesVehiculos_Vehiculos_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:52:19 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6DF01D-3BDB-1C8C-AD35-74D4D194EBF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

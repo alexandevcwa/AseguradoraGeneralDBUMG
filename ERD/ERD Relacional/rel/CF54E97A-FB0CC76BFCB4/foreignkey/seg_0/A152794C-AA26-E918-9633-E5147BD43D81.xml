@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A152794C-AA26-E918-9633-E5147BD43D81" containerWithKeyObject="5B1FACCC-0B80-171A-3189-97E2E56CCEFC" localFKIndex="98B7DDD4-F852-58B1-54F8-291DB2166DFF" name="Seguros_Clientes_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:07:26 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<referredTableLongName>Clientes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AAD5B40-9D2F-6584-5507-95C90086F31E</referredTableID>
+<keyObject>266C38F4-6429-952D-6664-FAE65F0BDC65</keyObject>
+<referredKeyID>266C38F4-6429-952D-6664-FAE65F0BDC65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

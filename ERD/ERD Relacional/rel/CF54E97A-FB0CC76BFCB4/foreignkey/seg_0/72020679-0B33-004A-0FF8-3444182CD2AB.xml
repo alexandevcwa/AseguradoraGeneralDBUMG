@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72020679-0B33-004A-0FF8-3444182CD2AB" containerWithKeyObject="5B1FACCC-0B80-171A-3189-97E2E56CCEFC" localFKIndex="AF58F080-DF2A-E427-2B87-A1E2C65BC2F0" name="Seguros_TiposSeguros_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:08:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<referredTableLongName>TiposSeguros</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74759508-5F8E-763E-6103-B715E5F977A7</referredTableID>
+<keyObject>AF46DD48-45E9-1AC8-5611-E1B476905644</keyObject>
+<referredKeyID>AF46DD48-45E9-1AC8-5611-E1B476905644</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTSeguro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

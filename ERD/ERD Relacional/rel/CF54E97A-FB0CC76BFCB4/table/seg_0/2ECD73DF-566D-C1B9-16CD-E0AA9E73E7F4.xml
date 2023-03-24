@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ECD73DF-566D-C1B9-16CD-E0AA9E73E7F4" name="SegurosDetalle">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:09:06 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSeguroDetalle" id="83132207-EC11-915E-FB64-A86FBFFBACA8">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:10:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdSeguro" id="EAEA122C-049A-B4DA-B352-305B807BB87A">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:10:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8199C80B-482A-DC5E-3C9B-8B867EC46BE4" referredColumn="CFF7CAD4-CAF9-A506-174B-37A8923E7767"/>
+</associations>
+</Column>
+<Column name="Matricula" id="7624AECE-6169-5818-A83F-FA48EB5D74A4">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:10:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D7EA856-4ECD-5956-1088-6ABC2E7D5C9A" referredColumn="755D42DD-6520-EB13-E1F1-03BB92B373BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13EC1F12-9D03-6429-0515-BBF5D7167218" name="SegurosDetalle_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:10:29 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83132207-EC11-915E-FB64-A86FBFFBACA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF88642D-F229-42EF-983B-AC3CE686166F" name="SegurosDetalle_Seguros_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:11:13 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAEA122C-049A-B4DA-B352-305B807BB87A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E54DBF67-092B-92B3-7BD7-424748DB0D06" name="SegurosDetalle_Vehiculos_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:11:13 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7624AECE-6169-5818-A83F-FA48EB5D74A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

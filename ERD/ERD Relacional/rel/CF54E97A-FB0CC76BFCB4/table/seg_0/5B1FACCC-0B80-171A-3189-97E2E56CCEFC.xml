@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B1FACCC-0B80-171A-3189-97E2E56CCEFC" name="Seguros">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:53:05 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSeguro" id="CFF7CAD4-CAF9-A506-174B-37A8923E7767">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:53:45 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdTSeguro" id="FB6A231C-D04D-979F-271C-1A15F9912D0E">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:54:10 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72020679-0B33-004A-0FF8-3444182CD2AB" referredColumn="7A38523F-91D2-83C9-C5B2-9FB5649380A2"/>
+</associations>
+</Column>
+<Column name="ValorPrima" id="D09D6040-3C6F-2217-C946-7824094E8F80">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:54:43 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,8,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="220BC9E8-528A-9EBF-EE0B-4467F1755334">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:54:56 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFinal" id="1F1328F6-D310-57D5-430C-E96D78BFE832">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:55:56 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoPoliza" id="44457906-5EEF-9E66-22EB-CD4C999E084E">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:04:55 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCotizacion" id="5E1CD7D6-F212-FA01-83D1-D011A8E84719">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:04:55 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoPoliza" id="F6E6BEA5-6982-B515-A353-FA2B99D67B9B">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:04:55 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="7CEB36D9-506D-8569-B6B2-2CC87775B601">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:06:53 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A152794C-AA26-E918-9633-E5147BD43D81" referredColumn="236BF527-CC24-0F1E-865E-04D79083AC64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8943A612-EFFD-76BF-6BF8-B680B69B2DAF" name="Seguros_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 21:53:45 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFF7CAD4-CAF9-A506-174B-37A8923E7767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D859821-E3F0-8616-1721-9333A012237F" name="Seguros__UN">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:05:50 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44457906-5EEF-9E66-22EB-CD4C999E084E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98B7DDD4-F852-58B1-54F8-291DB2166DFF" name="Seguros_Clientes_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:07:26 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEB36D9-506D-8569-B6B2-2CC87775B601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF58F080-DF2A-E427-2B87-A1E2C65BC2F0" name="Seguros_TiposSeguros_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2023-03-23 22:08:00 UTC</createdTime>
+<ownerDesignName>ERD Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6A231C-D04D-979F-271C-1A15F9912D0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
