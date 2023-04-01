@@ -2014,8 +2014,8 @@
 								"$ref": "AAAAAAFLzntJC6ElOqo="
 							},
 							"font": "Courier;13;0",
-							"left": 632,
-							"top": 72,
+							"left": 344,
+							"top": 112,
 							"width": 241,
 							"height": 25,
 							"text": "* Listar todos los atributos"
@@ -2027,8 +2027,8 @@
 								"$ref": "AAAAAAFLzntJC6ElOqo="
 							},
 							"font": "Courier;13;0",
-							"left": 632,
-							"top": 96,
+							"left": 344,
+							"top": 136,
 							"width": 305,
 							"height": 25,
 							"text": "* Nombrar al universo"
@@ -2040,8 +2040,8 @@
 								"$ref": "AAAAAAFLzntJC6ElOqo="
 							},
 							"font": "Courier;13;0",
-							"left": 632,
-							"top": 120,
+							"left": 344,
+							"top": 160,
 							"width": 337,
 							"height": 25,
 							"text": "* De todos los atributos, nombrar la PK"
