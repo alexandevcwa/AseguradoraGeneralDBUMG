@@ -14,11 +14,11 @@ vehículos y que algunos vehículos, figuren a nombre de varios propietarios.
 
 ## Diagrama ERD Lógico
 
-[ERD Lógico - OneDrive](https://umgt-my.sharepoint.com/:i:/g/personal/rmachicm_miumg_edu_gt/EbyVkwpYf15Oo8a5ipM7AGcBMFY5IZbgvLHE8tAlLCMhyw?e=TTWQaf "ERD Lógico")
+![ERD Lógico](Images/ERD%20L%C3%B3gico.jpg "ERD Lógico")
 
 ## Diagrama ERD Relacional
 
-[ERD Relacional - OneDrive](https://umgt-my.sharepoint.com/:i:/g/personal/rmachicm_miumg_edu_gt/EQFtHWZPMzdOolG32tvWzvoBgSSPWlnGU4Awei9ufts_GQ?e=64WX9S "ERD Relacional")
+[ERD Relacional](Images/ERD%20-%20Relacional.png "ERD Relacional")
 
 
 ## Pasos para creación de usuario que contendra la base de datos.
